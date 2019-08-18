@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AgentManagement")]
+[assembly: AssemblyTitle("AgentManagement.Domain")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AgentManagement")]
+[assembly: AssemblyProduct("AgentManagement.Domain")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("7d4b2d65-a44b-4626-9602-b965133136f4")]
+[assembly: Guid("100b066d-552f-4bd4-b7c7-7867787acc9e")]
 
 // Version information for an assembly consists of the following four values:
 //

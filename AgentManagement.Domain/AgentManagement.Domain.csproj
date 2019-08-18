@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=9.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.9.0.0\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="CQRSlite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\CqrsLite.0.29.0\lib\net452\CQRSlite.dll</HintPath>
     </Reference>
@@ -85,6 +88,8 @@
     <Compile Include="Commands\CreateAgentCommand.cs" />
     <Compile Include="Commands\CreateLocationCommand.cs" />
     <Compile Include="Commands\RemoveAgentFromLocationCommand.cs" />
+    <Compile Include="EventHandlers\AgentEventHandler.cs" />
+    <Compile Include="EventHandlers\LocationEventHandler.cs" />
     <Compile Include="Events\Agents\AgentCreatedEvent.cs" />
     <Compile Include="Events\BaseEvent.cs" />
     <Compile Include="Events\Locations\AgentAssignedToLocationEvent.cs" />
@@ -103,7 +108,6 @@
     <Compile Include="WriteModel\Location.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="EventHandlers\" />
     <Folder Include="EventStore\" />
   </ItemGroup>
   <ItemGroup>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentManagement.Domain", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentManagement.Queries.API", "AgentManagement.Queries.API\AgentManagement.Queries.API.csproj", "{9B5C103A-A843-4821-AEB3-6E40E8005EC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentManagement.Commands.API", "AgentManagement.Commands.API\AgentManagement.Commands.API.csproj", "{989376BB-FC66-43BB-9C9A-ADB24FD3BC59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9B5C103A-A843-4821-AEB3-6E40E8005EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5C103A-A843-4821-AEB3-6E40E8005EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5C103A-A843-4821-AEB3-6E40E8005EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989376BB-FC66-43BB-9C9A-ADB24FD3BC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989376BB-FC66-43BB-9C9A-ADB24FD3BC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989376BB-FC66-43BB-9C9A-ADB24FD3BC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989376BB-FC66-43BB-9C9A-ADB24FD3BC59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
